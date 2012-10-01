@@ -3,8 +3,6 @@
   "name": "LateShowLabs",
   "version": "1.0.0",
   "dependencies": {
-    "yeoman": "~0.9.2",
-    "grunt-recess": "~0.1.1",
     "express": "~3.0.0"
     },
   "devDependencies": {},
