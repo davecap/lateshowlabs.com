@@ -14,8 +14,51 @@
 // --------------------------------------------------
 
 @import 'bootstrap/bootstrap.less';
-@import 'bootstrap/responsive.less';
+
+// Fixed header body push-down
+body {
+    padding-top: 48px;
+    background: url('../img/grid.png') 0 24px;
+}
+
+// @import 'bootstrap/responsive.less';
 
 /*!
- * Custom css
+ * Late Show Labs coolness
  */
+
+
+#header {
+    width: 100%;
+    .uber-header {
+        width: 100%;
+        background-color: #2BA7C7;
+        height: 401px;
+        max-height: 401px;
+        border-bottom: 2px solid #207D95;
+        overflow:visible;
+        text-align: center;
+        .slogan {
+            margin-top: 1em;
+            margin-bottom: 27px;
+            color: @white;
+        }
+    }
+    .unda-header {
+        width: 100%;
+        background-color: #D5EDF4;
+        height: 144px;
+        border-bottom: 2px solid #AADCE9;
+        .features {
+            margin: 70px auto 0 auto;
+            td {
+                img {
+                    margin-right:5px;
+                }
+                font-size: 24px;
+                color: #207D95;
+                padding: 0 20px;
+            }
+        }
+    }
+}

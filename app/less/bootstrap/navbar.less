@@ -23,7 +23,8 @@
   min-height: @navbarHeight;
   padding-left:  20px;
   padding-right: 20px;
-  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  // #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  background-color: @navbarBackground;
   border: 1px solid @navbarBorder;
   .border-radius(4px);
   .box-shadow(0 1px 4px rgba(0,0,0,.065));
@@ -52,10 +53,11 @@
   // Vertically center the text given @navbarHeight
   padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
   margin-left: -20px; // negative indent to left-align the text down the page
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 24px;
+  font-family: 'Asap', sans-serif;
+  font-weight: normal;
   color: @navbarBrandColor;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  //text-shadow: 0 1px 0 @navbarBackgroundHighlight;
   &:hover {
     text-decoration: none;
   }
@@ -81,9 +83,9 @@
 // -------------------------
 .navbar .divider-vertical {
   height: @navbarHeight;
-  margin: 0 9px;
-  border-left: 1px solid @navbarBackground;
-  border-right: 1px solid @navbarBackgroundHighlight;
+  margin: 0;
+  // border-left: 1px solid @navbarBackground;
+  border-right: 1px solid #262626;
 }
 
 // Buttons in navbar
@@ -238,10 +240,10 @@
 .navbar .nav > li > a {
   float: none;
   // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);
+  padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
   color: @navbarLinkColor;
   text-decoration: none;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  //text-shadow: 0 1px 0 @navbarBackgroundHighlight;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -250,6 +252,7 @@
 // Hover
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
+  .box-shadow(inset 0 0px 30px rgba(0,0,0,.8));
   background-color: @navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
   color: @navbarLinkColorHover;
   text-decoration: none;
@@ -262,7 +265,8 @@
   color: @navbarLinkColorActive;
   text-decoration: none;
   background-color: @navbarLinkBackgroundActive;
-  .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
+  .box-shadow(inset 0 0px 30px rgba(0,0,0,.8));
+  // .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
 }
 
 // Navbar button for toggling navbar items in responsive layouts
