@@ -18,7 +18,7 @@
 // Fixed header body push-down
 body {
     padding-top: 48px;
-    background: url('../img/grid.png') 0 24px;
+    // background: url('../img/grid.png') 0 24px;
 }
 
 // @import 'bootstrap/responsive.less';
@@ -60,5 +60,39 @@ body {
                 padding: 0 20px;
             }
         }
+    }
+}
+
+section {
+    header {
+        text-align: center;
+        height: 120px;
+        h1 {
+            line-height:120px;
+            margin: 0;
+        }
+    }
+    &.border-bottom {
+        padding-bottom:48px;
+        border-bottom: 2px solid #E6E6E6;
+    }
+}
+
+#footer {
+    height: 168px;
+    width: 100%;
+    background-color: @navbarBackground;
+    // .box-shadow(inset 0 3px 20px rgba(0,0,0,.6));
+    h1 {
+        float:left;
+        color: @white;
+        margin-top: 2em;
+        line-height: 40px;
+    }
+    p {
+        float: right;
+        color: @white;
+        margin-top: 5em;
+        line-height: 40px;
     }
 }
