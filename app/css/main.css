@@ -9271,10 +9271,33 @@ body {
 .jumbotron h1 {
   margin-top: 40px;
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .jumbotron h1 span {
   color: #8f9197;
+}
+
+.jumbotron h1.visible-tablet {
+  display: visible;
+  font-size: 32px;
+}
+
+.jumbotron h1.visible-phone {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .thumbnails .span4 .thumbnail .caption {
+    width: 275px;
+    margin: 0 auto;
+  }
+  .thumbnails .span6 .thumbnail .caption {
+    width: 360px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 979px) {
