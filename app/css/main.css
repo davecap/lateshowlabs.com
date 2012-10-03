@@ -176,7 +176,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'Asap', sans-serif;
+  font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #8f9197;
@@ -1118,8 +1118,8 @@ h4,
 h5,
 h6 {
   margin: 24px 0;
-  font-family: inherit;
-  font-weight: bold;
+  font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", sans-serif;
+  font-weight: normal;
   line-height: 1;
   color: #444752;
   text-rendering: optimizelegibility;
@@ -1453,7 +1453,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Asap', sans-serif;
+  font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", sans-serif;
 }
 
 label {
@@ -6017,9 +6017,6 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 12px 20px 12px;
   margin-left: -20px;
-  font-family: 'Asap', sans-serif;
-  font-size: 24px;
-  font-weight: normal;
   color: #ffffff;
 }
 
@@ -6033,7 +6030,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-link {
-  color: #ffffff;
+  color: #8f9197;
 }
 
 .navbar-link:hover {
@@ -6129,10 +6126,10 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: 'Asap', sans-serif;
-  font-family: 'Asap', sans-serif;
-  font-family: 'Asap', sans-serif;
-  font-family: 'Asap', sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
   font-size: 13px;
   font-size: 13px;
   font-size: 13px;
@@ -6252,7 +6249,23 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 12px 20px 12px;
-  color: #ffffff;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-size: 18px;
+  font-size: 18px;
+  font-size: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  line-height: 24px;
+  line-height: 24px;
+  line-height: 24px;
+  line-height: 24px;
+  color: #8f9197;
   text-decoration: none;
 }
 
@@ -6276,7 +6289,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #8f9197;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
   -webkit-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
@@ -6481,20 +6494,20 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #8f9197;
+  color: #ffffff;
   background-color: transparent;
 }
 
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-top-color: #8f9197;
+  border-bottom-color: #8f9197;
 }
 
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #8f9197;
-  border-bottom-color: #8f9197;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .navbar .pull-right > li > .dropdown-menu,
@@ -9122,7 +9135,7 @@ body {
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
-    color: #ffffff;
+    color: #8f9197;
     -webkit-border-radius: 3px;
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
@@ -9238,6 +9251,12 @@ body {
  * Late Show Labs coolness
  */
 
+.navbar .brand {
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .jumbotron {
   position: relative;
   padding: 0;
@@ -9289,11 +9308,45 @@ section header {
 section header h2 {
   padding: 24px 0;
   margin: 0;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-size: 24px;
+  font-size: 24px;
+  font-size: 24px;
+  font-size: 24px;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
 }
 
-.form-actions {
-  padding: 24px 0 0;
-  margin-bottom: 0;
+#contact .container {
+  text-align: center;
+}
+
+#contact a {
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-size: 24px;
+  font-size: 24px;
+  font-size: 24px;
+  font-size: 24px;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
 }
 
 #footer {
@@ -9304,6 +9357,22 @@ section header h2 {
 
 #footer h1 {
   margin-top: 72px;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  font-size: 36px;
+  font-size: 36px;
+  font-size: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  font-weight: normal;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
+  line-height: 1;
   color: #ffffff;
 }
 

@@ -47,17 +47,17 @@
 
 // Typography
 // -------------------------
-@sansFontFamily:        'Asap', sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@sansFontFamily:        "futura-pt-1", "futura-pt-2", sans-serif;
+@serifFontFamily:       "adobe-garamond-pro-1","adobe-garamond-pro-2", sans-serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          16px;
-@baseFontFamily:        @sansFontFamily;
+@baseFontFamily:        @serifFontFamily;
 @baseLineHeight:        24px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontFamily:    @serifFontFamily; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    normal;    // instead of browser default, bold
 @headingsColor:         @metal; // empty to use BS default, @textColor
 
 // Tables
@@ -167,13 +167,13 @@
 @navbarBorder:                    none; // darken(@navbarBackground, 12%);
 
 @navbarText:                      @white;
-@navbarLinkColor:                 @white;
+@navbarLinkColor:                 @gray;
 @navbarLinkColorHover:            @white;
-@navbarLinkColorActive:           @gray;
+@navbarLinkColorActive:           @white;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      transparent; // darken(@navbarBackground, 5%);
 
-@navbarBrandColor:                @navbarLinkColor;
+@navbarBrandColor:                @white;
 
 // Inverted navbar
 @navbarInverseBackground:                #111111;

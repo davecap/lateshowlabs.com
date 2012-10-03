@@ -27,6 +27,12 @@ body {
  * Late Show Labs coolness
  */
 
+.navbar .brand {
+    font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .jumbotron {
     position: relative;
     padding: 0;
@@ -181,22 +187,30 @@ section {
         text-align: center;
         margin-bottom: 24px;
         h2 {
+            #font > .sans-serif(24px, normal, 1);
             padding: 24px 0;
             margin: 0;
         }
     }
 }
 
-.form-actions {
-    padding: 24px 0 0;
-    margin-bottom:0;
+#contact {
+    .container {
+        text-align:center;
+    }
+    a {
+        //#font > .monospace(24px, normal, 1);
+        #font > .sans-serif(24px, normal, 1);
+    }
 }
+
 
 #footer {
     height: 215px;
     background-color: @navbarBackground;
     text-align:center;
     h1 {
+        #font > .sans-serif(36px, normal, 1);
         margin-top:72px;
         color: @white;
     }

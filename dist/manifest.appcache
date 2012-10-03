@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Tue Oct 02 2012 23:59:16 GMT-0400 (EDT)
+# Time: Wed Oct 03 2012 18:16:28 GMT-0400 (EDT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -21,16 +21,18 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
-css/529355ba.main.css
+css/c8a4197b.main.css
 http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
-http://fonts.googleapis.com/css?family=Asap:400,700
 http://localhost:3501/img/glyphicons-halflings-white.png
 http://localhost:3501/img/glyphicons-halflings.png
 http://placehold.it/300x200
 http://placehold.it/460x290
+http://use.typekit.net/badges/default.gif
+http://use.typekit.net/c/745056/adobe-garamond-pro-1:n4,futura-pt-1:n3.QCK:F:2,SHB:F:2/d?3bb2a6e53c9684ffdc9a9bf7135b2a62c569a8ddca988f707fda988e67d54d2ccb0eb46a3a94c5a869855965263daf903ddac9dfdb9a63d8197e0384b82e64f4853772e4e5e1464fba16243ee63c4b2d3c6dc6f2a80d5fe74e778a2f86b0274bdb5bfbdc0d8079e13d65d2dc26a67fff7d1114a5ef888b
+http://use.typekit.net/mpk0dkk.js
 http://www.google-analytics.com/ga.js
 img/top-views.png
-js/6b51de20.plugins.js
+js/98bb90f6.plugins.js
 js/vendor/cf69c6f2.modernizr.min.js
 
 NETWORK:
