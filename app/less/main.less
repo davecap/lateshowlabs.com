@@ -21,7 +21,7 @@ body {
     // background: url('../img/grid.png') 0 24px;
 }
 
-// @import 'bootstrap/responsive.less';
+@import 'bootstrap/responsive.less';
 
 /*!
  * Late Show Labs coolness
@@ -31,11 +31,7 @@ body {
     position: relative;
     padding: 0;
     text-align: center;
-    // TODO: responsive;
-    // padding: 0 20px;
-    // margin-top: -20px;
-    // margin-right: -20px;
-    // margin-left: -20px;
+    margin-bottom:4em;
     .container {
         position: relative;
     }
@@ -45,6 +41,15 @@ body {
         span {
             color: @metalLight;
         }
+    }
+}
+
+@media (max-width: @navbarCollapseWidth) {
+    #footer {
+        padding: 0 20px;
+        margin-top: -20px;
+        margin-right: -20px;
+        margin-left: -20px;
     }
 }
 
@@ -169,37 +174,30 @@ body {
 // }
 
 
-
 section {
+    margin-bottom: 5em;
     header {
+        border-top: 4px solid @metal;
+        border-bottom: 1px solid @metalLight;
         text-align: center;
-        height: 120px;
-        h1 {
-            line-height:120px;
+        margin-bottom: 1em;
+        h2 {
+            padding: 1em 0;
             margin: 0;
         }
-    }
-    &.border-bottom {
-        padding-bottom:48px;
-        border-bottom: 2px solid #E6E6E6;
     }
 }
 
 #footer {
-    height: 168px;
-    width: 100%;
+    height: 215px;
     background-color: @navbarBackground;
-    // .box-shadow(inset 0 3px 20px rgba(0,0,0,.6));
+    text-align:center;
     h1 {
-        float:left;
+        margin-top:2em;
         color: @white;
-        margin-top: 2em;
-        line-height: 40px;
     }
     p {
-        float: right;
+        margin-top:1em;
         color: @white;
-        margin-top: 5em;
-        line-height: 40px;
     }
 }
