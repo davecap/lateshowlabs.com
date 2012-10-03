@@ -16,6 +16,8 @@
 @grayLight:             #999;
 @grayLighter:           #eee;
 @white:                 #fff;
+@metal:                 #444752;
+@metalLight:            #8F9197;
 
 
 // Accent colors
@@ -54,8 +56,8 @@
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    normal;    // instead of browser default, bold
-@headingsColor:         inherit; // empty to use BS default, @textColor
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         @metal; // empty to use BS default, @textColor
 
 // Tables
 // -------------------------
@@ -160,8 +162,8 @@
 
 @navbarHeight:                    48px;
 @navbarBackgroundHighlight:       #ffffff;
-@navbarBackground:                #333333; // darken(@navbarBackgroundHighlight, 5%);
-@navbarBorder:                    #1A1A1A; // darken(@navbarBackground, 12%);
+@navbarBackground:                @metal; // darken(@navbarBackgroundHighlight, 5%);
+@navbarBorder:                    none; // darken(@navbarBackground, 12%);
 
 @navbarText:                      @white;
 @navbarLinkColor:                 @white;

@@ -645,9 +645,9 @@ h5,
 h6 {
   margin: 12px 0;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1;
-  color: inherit;
+  color: #444752;
   text-rendering: optimizelegibility;
 }
 
@@ -4165,8 +4165,8 @@ input[type="submit"].btn.btn-mini {
   min-height: 48px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #333333;
-  border: 1px solid #1a1a1a;
+  background-color: #444752;
+  border: 1px solid none;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -4429,17 +4429,17 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #a1a1a1;
-  *background-color: #262626;
-  background-image: -moz-linear-gradient(top, #f2f2f2, #262626);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#262626));
-  background-image: -webkit-linear-gradient(top, #f2f2f2, #262626);
-  background-image: -o-linear-gradient(top, #f2f2f2, #262626);
-  background-image: linear-gradient(to bottom, #f2f2f2, #262626);
+  background-color: #a8a9ad;
+  *background-color: #383b44;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #383b44);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#383b44));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #383b44);
+  background-image: -o-linear-gradient(top, #f2f2f2, #383b44);
+  background-image: linear-gradient(to bottom, #f2f2f2, #383b44);
   background-repeat: repeat-x;
-  border-color: #262626 #262626 #000000;
+  border-color: #383b44 #383b44 #16171a;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ff262626', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ff383b44', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
@@ -4452,13 +4452,13 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
   color: #ffffff;
-  background-color: #262626;
-  *background-color: #1a1a1a;
+  background-color: #383b44;
+  *background-color: #2d2f36;
 }
 
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
-  background-color: #0d0d0d \9;
+  background-color: #212328 \9;
 }
 
 .navbar .btn-navbar .icon-bar {
@@ -5786,46 +5786,32 @@ body {
  * Late Show Labs coolness
  */
 
-#header {
-  width: 100%;
-}
-
-#header .uber-header {
-  width: 100%;
-  height: 401px;
-  max-height: 401px;
-  overflow: visible;
+.jumbotron {
+  position: relative;
+  padding: 0;
   text-align: center;
-  background-color: #2BA7C7;
-  border-bottom: 2px solid #207D95;
 }
 
-#header .uber-header .slogan {
-  margin-top: 1em;
-  margin-bottom: 27px;
-  color: #ffffff;
+.jumbotron .container {
+  position: relative;
 }
 
-#header .unda-header {
-  width: 100%;
-  height: 144px;
-  background-color: #D5EDF4;
-  border-bottom: 2px solid #AADCE9;
+.jumbotron h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-#header .unda-header .features {
-  margin: 70px auto 0 auto;
+.jumbotron h1 span {
+  color: #8f9197;
 }
 
-#header .unda-header .features td {
-  padding: 0 20px;
-  font-size: 24px;
-  color: #207D95;
-}
+/* Link styles (used on .masthead-links as well) */
 
-#header .unda-header .features td img {
-  margin-right: 5px;
-}
+/* Pattern overlay
+------------------------- */
+
+/* Masthead (docs home)
+------------------------- */
 
 section header {
   height: 120px;
@@ -5845,7 +5831,7 @@ section.border-bottom {
 #footer {
   width: 100%;
   height: 168px;
-  background-color: #333333;
+  background-color: #444752;
 }
 
 #footer h1 {
