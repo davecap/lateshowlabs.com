@@ -1119,7 +1119,7 @@ h5,
 h6 {
   margin: 24px 0;
   font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1;
   color: #444752;
   text-rendering: optimizelegibility;
@@ -6017,6 +6017,7 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 12px 20px 12px;
   margin-left: -20px;
+  font-weight: 300;
   color: #ffffff;
 }
 
@@ -9100,7 +9101,7 @@ body {
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
+    padding: 0 20px;
   }
   .navbar .container {
     width: auto;
@@ -9254,7 +9255,7 @@ body {
 .navbar .brand {
   font-family: "futura-pt-1", "futura-pt-2", sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .jumbotron {
@@ -9280,12 +9281,14 @@ body {
 
 .jumbotron h1.visible-tablet {
   display: visible;
+  margin-top: 20px;
   font-size: 32px;
 }
 
 .jumbotron h1.visible-phone {
   margin-top: 10px;
   margin-bottom: 35px;
+  font-size: 32px;
   text-align: left;
 }
 
@@ -9298,14 +9301,15 @@ body {
     width: 360px;
     margin: 0 auto;
   }
+  #footer {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
 }
 
 @media (max-width: 979px) {
   #footer {
     padding: 0 20px;
-    margin-top: -20px;
-    margin-right: -20px;
-    margin-left: -20px;
   }
 }
 
@@ -9339,10 +9343,10 @@ section header h2 {
   font-size: 24px;
   font-size: 24px;
   font-size: 24px;
-  font-weight: normal;
-  font-weight: normal;
-  font-weight: normal;
-  font-weight: normal;
+  font-weight: 500;
+  font-weight: 500;
+  font-weight: 500;
+  font-weight: 500;
   line-height: 1;
   line-height: 1;
   line-height: 1;
@@ -9362,10 +9366,10 @@ section header h2 {
   font-size: 24px;
   font-size: 24px;
   font-size: 24px;
-  font-weight: normal;
-  font-weight: normal;
-  font-weight: normal;
-  font-weight: normal;
+  font-weight: 300;
+  font-weight: 300;
+  font-weight: 300;
+  font-weight: 300;
   line-height: 1;
   line-height: 1;
   line-height: 1;
@@ -9374,6 +9378,7 @@ section header h2 {
 
 #footer {
   height: 215px;
+  margin-top: 50px;
   text-align: center;
   background-color: #444752;
 }

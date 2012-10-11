@@ -12,10 +12,10 @@
     <meta name="description" content="Late Show Labs. Web design, web development, and consulting. We design experience."/>
     <meta name="viewport" content="width=device-width"/>
 
-    <link rel="stylesheet" href="css/fb6c4263.main.css"/>
+    <link rel="stylesheet" href="css/9c8b835a.main.css"/>
     <script src="js/vendor/cf69c6f2.modernizr.min.js"></script>
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -30,24 +30,25 @@
 
               <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
+                  <li class="hide"><a href="#top">Home</a></li>
                   <li class="divider-vertical"></li>
                   <li><a href="#work">Work</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="#services">Services</a></li>
-                  <li class="divider-vertical"></li>
+                  <!--<li><a href="#services">Services</a></li>
+                  <li class="divider-vertical"></li>-->
                   <li><a href="#team">Team</a></li>
                   <li class="divider-vertical"></li>
                   <li><a href="#contact">Contact</a></li>
                   <li class="divider-vertical"></li>
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+              </div> <!-- .nav-collapse -->
+            </div> <!-- .span12 -->
+          </div> <!-- .row -->
+        </div> <!-- .container -->
+      </div> <!-- .navbar-inner -->
+    </div> <!-- .navbar -->
 
-    <div class="jumbotron">
+    <div id="top" class="jumbotron">
       <div class="container">
         <div class="row">
           <div class="span12">
@@ -58,125 +59,138 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> <!-- .jumbotron -->
 
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-
-          <section id="work">
+    <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
             <header>
               <h2>Our Work</h2>
             </header>
-
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span4">
-                  <div class="thumbnail">
-                    <img src="http://placehold.it/300x200" alt="">
-                    <div class="caption">
-                      <h3>Thumbnail label</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                      <a href="#">Visit website &rarr;</a>
-                    </div>
+            <ul class="thumbnails">
+              <li class="span4">
+                <div class="thumbnail">
+                  <a href="http://www.dolbeau.ca/"><img src="img/dolbeau.jpg" alt="Dolbeau.ca screenshot"></a>
+                  <div class="caption">
+                    <h3>Dolbeau</h3>
+                    <p>Dolbeau is a men's fashion accessory brand that specializes in unique ties. LSL conceived the idea and developed Dolbeau into what it is today.</p>
+                    <a href="http://www.dolbeau.ca/">Visit Dolbeau &rarr;</a>
                   </div>
-                </li>
-                <li class="span4">
-                  <div class="thumbnail">
-                    <img src="http://placehold.it/300x200" alt="">
-                    <div class="caption">
-                      <h3>Thumbnail label</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                      <a href="#">Visit website &rarr;</a>
-                    </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <a href="http://www.twitteraudit.com/"><img src="img/twitteraudit.jpg" alt="TwitterAudit.com screenshot"></a>
+                  <div class="caption">
+                    <h3>TwitterAudit</h3>
+                    <p>TwitterAudit is a website that audits Twitter users to find out how many of their followers are real or fake. LSL invented, designed, and implemented the site.</p>
+                    <a href="http://www.twitteraudit.com/">Visit TwitterAudit &rarr;</a>
                   </div>
-                </li>
-                <li class="span4">
-                  <div class="thumbnail">
-                    <img src="http://placehold.it/300x200" alt="">
-                    <div class="caption">
-                      <h3>Thumbnail label</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                      <a href="#">Visit website &rarr;</a>
-                    </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <a href="http://www.rooneyshop.com/"><img src="img/rooney.jpg" alt="Rooneyshop.com screenshot"></a>
+                  <div class="caption">
+                    <h3>Rooney</h3>
+                    <p>Rooney is a Montreal menswear boutique. LSL designed and implemented a custom Shopify theme for their online store which serves thousands of customers per month.</p>
+                    <a href="http://www.rooneyshop.com/">Visit Rooney &rarr;</a>
                   </div>
-                </li>
-              </ul>
-            </div>
+                </div>
+              </li>
+            </ul> <!-- .thumbnails -->
+          </div>
+        </div>
+      </div> <!-- .container -->
+    </section>
 
-          </section>
-
-          <section id="services">
+    <section id="services" class="hide">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
             <header>
               <h2>Services</h2>
             </header>
+            <ul class="thumbnails">
+              <li class="span4">
+                <div class="thumbnail">
+                  <h3>Web Design</h3>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <h3>Web Development</h3>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <h3>Consulting</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span4">
-                  <div class="thumbnail">
-                    <h3>Web Design</h3>
-                  </div>
-                </li>
-                <li class="span4">
-                  <div class="thumbnail">
-                    <h3>Web Development</h3>
-                  </div>
-                </li>
-                <li class="span4">
-                  <div class="thumbnail">
-                    <h3>Consulting</h3>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <section id="team">
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
             <header>
               <h2>The Team</h2>
             </header>
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span6">
-                  <div class="thumbnail">
-                    <img src="http://placehold.it/460x290" alt="">
-                    <div class="caption">
-                      <h3>Thumbnail label</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <ul class="thumbnails">
+              <li class="span6">
+                <div class="thumbnail">
+                  <img src="img/caplan.jpg" alt="David Caplan">
+                  <div class="caption">
+                    <h3>David Caplan</h3>
+                    <p>Mr. Caplan (<a href="http://twitter.com/davc">@davc</a>) is a full-stack web developer and published scientist. He started using Linux at age 13 and first put his skills to work at 18 as an IT consultant. He's got a formal education in computational biology but web development is more fun, so that's what he does now.</p>
+                    <h3>Education</h3>
+                    <div style="margin-left:7px;background-image:url(img/icon_utoronto.png);background-repeat:no-repeat;padding-left:48px;">
+                      MSc Biochemistry<br />
+                      University of Toronto
+                    </div>
+                    <div style="margin-top:1em;background-image:url(img/icon_ucalgary.png);background-repeat:no-repeat;padding-left:55px;">
+                      BHSc Bioinformatics (Hons.)<br />
+                      University of Calgary
                     </div>
                   </div>
-                </li>
-                <li class="span6">
-                  <div class="thumbnail">
-                    <img src="http://placehold.it/460x290" alt="">
-                    <div class="caption">
-                      <h3>Thumbnail label</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+              </li>
+              <li class="span6">
+                <div class="thumbnail">
+                  <img src="img/gross.jpg" alt="David Gross">
+                  <div class="caption">
+                    <h3>David Gross</h3>
+                    <p>Mr. Gross (<a href="http://twitter.com/grossnasty">@grossnasty</a>) is an accountant-turned-designer &amp; entrepreneur. The rest of his bio is in the works, but believe-you-me it'll be great.</p>
+                    <h3>Education</h3>
+                    <div style="background-image:url(img/icon_concordia.png);background-repeat:no-repeat;padding-left:55px;">
+                      BComm Accountancy (Hons.)<br />
+                      Concordia University
                     </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          </section>
-
-          <section id="contact">
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
             <header>
               <h2>Contact Us</h2>
             </header>
-            <div class="container">
-              <div class="row">
-                <div class="span12">
-                  <a href="mailto:hello@lateshowlabs.com">hello@lateshowlabs.com</a>
-                </div>
-              </div>
-            </div>
-          </section>
-
+            <a href="mailto:hello@lateshowlabs.com">hello@lateshowlabs.com</a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div id="footer">
       <div class="container">
